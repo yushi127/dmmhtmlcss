@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pink{
+  background-color: rgb(230, 43, 255);
+}
+.light-pink{
+  background-color: rgb(244, 158, 255);
+}
+.green{
+  background-color: rgb(43, 192, 167);
+}
+.light-green{
+  background-color: rgb(158, 253, 158);
+}
+.yellow{
+  background-color: rgb(254, 255, 199);
+}
+.blue{
+  background-color: rgba(50, 53, 255, 0.993);
+}
+.light-blue{
+  background-color: rgb(113, 115, 235);
+}
+.pink-wrap{
+  padding: 30px 20px;
+  width: 100%;
+}
+.flex{
+  display: flex;
+  justify-content: flex-end;
+}
+.flex > :first-child {
+  margin-right: auto;
+}
+.flex > div{
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0px 10px;
+}
+
+.mainflex-wrap{
+  display: flex;
+  justify-content: center;
+}
+.mainflex-wrap > div:first-child{
+ width: 300px; 
+}
+
+.mainflex-wrap > div:last-child{
+  flex-grow: 1;
+  max-width: 700px;
+}
+.mainflex{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.mainflex > div{
+  flex-grow: 1;
+  flex-basis: 200px;
+  height: 130px;
+  margin: 10px;
+}
+
+.bottom-flex{
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bottom-flex > div{
+  flex-basis: 45%;
+  height: 40px;
+  margin: 10px;
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  .flex{
+    display: block;
+    margin: 0 auto;
+  }
+  .flex .main-wrap:first-child{
+    margin: 0px auto;
+  }
+  .flex .main-wrap:last-child{
+    margin: 0px auto;
+  }
+  .flex-wrap{
+    width: 100%;
+  }
+  .main-wrap{
+    width: 90%;
+    margin: 20px 5%;
+  }
+}

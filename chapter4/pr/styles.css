@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* float設定による入り込みをブロックするための記述 */
+.header{
+    width: 100%; /* 横幅いっぱい */
+    height:50px; /* 高さ70px */
+    background-color: red; /* 背景色red */
+}
+
+.main{
+  margin: 0 auto;
+  width: 960px; /* 横幅いっぱい */
+  height: 1400px; /* 高さ1000px */
+  background-color: lime; /* 背景色green */
+}
+.main-visual{ 
+  width: 100%; /* 横幅いっぱい */
+  height: 500px; /* 高さ650px */
+  background-color: orange; /* 背景色orange */
+}
+
+.main-contents{
+  margin: 0 auto;
+  text-align: center;
+  width: 500px; /* 横幅930px */
+  height: 100%;
+  margin: 0 auto; /* 中央寄せ */
+  background-color: green; /* 背景色lime */
+}
+.footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 60px; /* 高さ60px */
+  background-color: blue; /* 背景色blue */
+}
